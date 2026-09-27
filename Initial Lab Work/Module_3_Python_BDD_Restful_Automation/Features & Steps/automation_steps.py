@@ -41,8 +41,8 @@ def step_enter_name(context, name):
 @then("the name should be entered successfully")
 def step_verify_name(context):
     name_box = context.driver.find_element(By.ID, "name")
-    assert name_box.get_attribute("value") == "angshul"
-    print(f"Name verified as angshul: {name_box.get_attribute('value')}")
+    assert name_box.get_attribute("value") == "dipanjan "
+    print(f"Name verified as dipanjan : {name_box.get_attribute('value')}")
 
 
 @when("the user selects Radio2")
@@ -61,7 +61,7 @@ def step_verify_radio2(context):
         By.XPATH, "//input[@value='radio2']"
     )
     assert radio2.is_selected()
-    print("Radio2 selected successfully by angshul")
+    print("Radio2 selected successfully by dipanjan ")
 
 
 @when("the user clicks the Alert button")
@@ -79,9 +79,9 @@ def step_verify_alert(context):
     )
 
     assert alert is not None
-    assert "angshul" in alert.text
+    assert "dipanjan " in alert.text
 
-    print("Alert text verified for angshul:", alert.text)
+    print("Alert text verified for dipanjan :", alert.text)
 
     alert.accept()
 

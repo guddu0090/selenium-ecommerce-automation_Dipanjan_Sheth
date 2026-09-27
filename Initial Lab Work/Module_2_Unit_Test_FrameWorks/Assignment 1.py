@@ -22,11 +22,11 @@ class TestAutomationPractice:
         )
 
         name_box.clear()
-        name_box.send_keys("angshul")
+        name_box.send_keys("dipanjan ")
 
-        assert name_box.get_attribute("value") == "angshul"
+        assert name_box.get_attribute("value") == "dipanjan "
 
-        print("Name 'angshul' entered successfully")
+        print("Name 'dipanjan ' entered successfully")
 
     def test_radio_button(self, driver):
         radio2 = driver.find_element(
@@ -38,7 +38,7 @@ class TestAutomationPractice:
 
         assert radio2.is_selected()
 
-        print("Radio2 selected successfully by angshul")
+        print("Radio2 selected successfully by dipanjan ")
 
     def test_page_title(self, driver):
         assert driver.title.strip() != ""

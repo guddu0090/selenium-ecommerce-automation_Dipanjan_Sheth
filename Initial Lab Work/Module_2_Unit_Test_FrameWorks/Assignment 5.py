@@ -20,11 +20,11 @@ def test_enter_name(driver):
     )
 
     name_box.clear()
-    name_box.send_keys("angshul")
+    name_box.send_keys("dipanjan ")
 
-    assert name_box.get_attribute("value") == "angshul"
+    assert name_box.get_attribute("value") == "dipanjan "
 
-    print("Name entered successfully as angshul")
+    print("Name entered successfully as dipanjan ")
 
 
 def test_radio_button(driver):

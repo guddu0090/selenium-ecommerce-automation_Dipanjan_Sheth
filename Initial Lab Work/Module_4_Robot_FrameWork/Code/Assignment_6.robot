@@ -12,7 +12,7 @@ Complete Automation Practice
 
     Wait Until Page Contains     Practice Page                     10s
 
-    Input Text                   id=name                           angshul
+    Input Text                   id=name                           dipanjan 
 
     Select Radio Button          radioButton                       radio1
 

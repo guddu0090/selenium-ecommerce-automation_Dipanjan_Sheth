@@ -15,7 +15,7 @@ def driver():
 
 @pytest.mark.parametrize(
     "name",
-    ["angshul", "Rahul", "Selenium"]
+    ["dipanjan ", "Rahul", "Selenium"]
 )
 def test_enter_multiple_names(driver, name):
 

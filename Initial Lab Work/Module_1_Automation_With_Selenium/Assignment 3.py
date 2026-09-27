@@ -74,6 +74,6 @@ if len(checkboxes) > 1:
 
     print("6. Second checkbox selected")
 
-print("\nAssignment 3 - Dynamic Dropdowns & Checkboxes PASSED by angshul")
+print("\nAssignment 3 - Dynamic Dropdowns & Checkboxes PASSED by dipanjan ")
 
 driver.quit()

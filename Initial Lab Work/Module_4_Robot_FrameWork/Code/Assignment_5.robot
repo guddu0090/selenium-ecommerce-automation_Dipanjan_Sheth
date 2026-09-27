@@ -10,7 +10,7 @@ Handle Alert And Take Screenshot
     Open Browser                 ${URL}                       ${BROWSER}
     Maximize Browser Window
 
-    Input Text                   id=name                      angshul
+    Input Text                   id=name                      dipanjan 
 
     Click Element                id=alertbtn
     Handle Alert                 accept

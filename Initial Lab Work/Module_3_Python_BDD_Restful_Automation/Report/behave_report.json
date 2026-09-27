@@ -96,13 +96,13 @@
           {
             "keyword": "And",
             "step_type": "when",
-            "name": "the user enters name \"angshul\"",
+            "name": "the user enters name \"dipanjan \"",
             "location": "Lab_Work/Features/automation.feature:11",
             "match": {
               "location": "Lab_Work/Features/steps/automation_steps.py:28",
               "arguments": [
                 {
-                  "value": "angshul",
+                  "value": "dipanjan ",
                   "name": "name"
                 }
               ]
@@ -233,13 +233,13 @@
           {
             "keyword": "And",
             "step_type": "when",
-            "name": "the user enters name \"angshul\"",
+            "name": "the user enters name \"dipanjan \"",
             "location": "Lab_Work/Features/automation.feature:23",
             "match": {
               "location": "Lab_Work/Features/steps/automation_steps.py:28",
               "arguments": [
                 {
-                  "value": "angshul",
+                  "value": "dipanjan ",
                   "name": "name"
                 }
               ]

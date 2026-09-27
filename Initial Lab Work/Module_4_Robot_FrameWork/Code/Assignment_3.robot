@@ -10,7 +10,7 @@ Practice Locators And XPath
     Open Browser                 ${URL}                            ${BROWSER}
     Maximize Browser Window
 
-    Input Text                   id=name                           angshul
+    Input Text                   id=name                           dipanjan 
 
     Select Radio Button          radioButton                       radio1
 

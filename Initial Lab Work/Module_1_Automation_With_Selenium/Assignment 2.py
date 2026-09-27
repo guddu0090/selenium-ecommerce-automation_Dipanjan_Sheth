@@ -18,9 +18,9 @@ name_box = wait.until(
     )
 )
 
-name_box.send_keys("angshul")
+name_box.send_keys("dipanjan ")
 
-print("1. Explicit Wait: Name field is visible and entered as angshul")
+print("1. Explicit Wait: Name field is visible and entered as dipanjan ")
 
 # 2. Wait for Radio2 to become clickable
 radio2 = wait.until(
@@ -58,6 +58,6 @@ assert "rahulshettyacademy.com" in driver.current_url
 
 print("5. URL verification successful")
 
-print("\nAssignment 2 - Synchronization & Explicit Waits PASSED by angshul")
+print("\nAssignment 2 - Synchronization & Explicit Waits PASSED by dipanjan ")
 
 driver.quit()

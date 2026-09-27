@@ -17,11 +17,11 @@ def driver():
 def test_name_field(driver):
     name_box = driver.find_element(By.ID, "name")
     name_box.clear()
-    name_box.send_keys("angshul")
+    name_box.send_keys("dipanjan ")
 
-    assert name_box.get_attribute("value") == "angshul"
+    assert name_box.get_attribute("value") == "dipanjan "
 
-    print("Name field test passed for angshul")
+    print("Name field test passed for dipanjan ")
 
 
 @pytest.mark.smoke
