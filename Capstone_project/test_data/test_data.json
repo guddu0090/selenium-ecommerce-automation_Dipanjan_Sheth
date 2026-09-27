@@ -1,0 +1,27 @@
+{
+  "base_url": "https://automationexercise.com",
+  "user": {
+    "name": "Dipanjan QA",
+    "email": "dipanjan.qa.capstone01@example.com",
+    "password": "Test@1234"
+  },
+  "signup_details": {
+    "title": "Mr",
+    "password": "Test@1234",
+    "birth_day": "10",
+    "birth_month": "5",
+    "birth_year": "1995",
+    "first_name": "Dipanjan",
+    "last_name": "QA",
+    "company": "Capstone Automation",
+    "address1": "221B Automation Lane",
+    "address2": "Near Selenium Grid",
+    "country": "India",
+    "state": "West Bengal",
+    "city": "Kolkata",
+    "zipcode": "700001",
+    "mobile_number": "9876543210"
+  },
+  "search_product": "Dress",
+  "quantity_to_set": "3"
+}
